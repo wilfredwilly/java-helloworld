@@ -2,5 +2,5 @@
 applications:
 - name: sample-java-helloworld
   random-route: true
-  memory: 256M
+  memory: 1G
   path: target/JavaHelloWorldApp.war
