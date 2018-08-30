@@ -3,7 +3,7 @@ node {
     withEnv(["PATH+MAVEN=${tool 'apache-maven-3.5.3'}bin"]) {
  
         stage ('Checkout') {
-            git 'https://github.com/wilfredwilly/java-helloworld.git'
+            checkout scm
         
         }
  
